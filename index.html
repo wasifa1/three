@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/5381270692.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body class = "mx-auto">
+    <header class = "bg-gradient-to-t from-orange-50">
+        <!-- Navigation Bar -->
+        <section class = " text-xl">
+            <div class = "  py-4 border-b-2 border-green-600 xl:border-0 flex justify-between xl:justify-around items-center px-6 xl:py-8">
+                <div class = ""><img src="assets/logo-header.png" alt=""></div>
+
+                <div>
+                    <nav class = "">
+                        <ul class = "hidden xl:flex justify-around gap-8 items-center">
+                            <li>Product</li>
+                            <li>Services</li>
+                            <li>Contact us</li>
+                        </ul>
+                    </nav>
+                </div>
+                
+                <div class = " hidden xl:flex gap-4 ">
+                    <i class="fa-solid fa-magnifying-glass pt-4"></i>
+                    <i class="fa-solid fa-cart-shopping pt-4"></i>
+                    <button class= " border-2  pt-2 pb-2 pl-7 pr-7 rounded-lg border-green-600 text-xl" >Login</button>
+                    <button class = "bg-green-600 border-2 pt-2 pb-2 pl-7 pr-7 rounded-lg text-white text-xl">Register</button>
+                </div>
+                <div class = "pb-3 xl:hidden"><i class="fa-solid fa-bars fa-xl" style="color: #179800;"></i></div>
+                
+            </div>
+        </section>
+        <!-- Banner -->
+         <section class = "px-3">
+            
+            <div class = "flex flex-col items-center text-center gap-8 pt-20">
+                <h1 class = "text-4xl lg:text-6xl text-center">Freshness <span class = "text-green-600">You Can<br>
+                    Count</span> On, Prices You’ll Love!</h1>
+                <p class = "text-xl text-center text-slate-600">Shop your daily essentials at unbeatable prices. From fresh produce to pantry<br> staples, we’ve got you covered every day!</p>
+                <img src="assets/hero-vegetables.png" alt="">
+
+            </div>
+         </section>
+
+
+    </header>
+    <main >
+        <!-- Services -->
+        <section class = "px-3 lg:px-40">
+            <h1 class = "  pt-12 pb-4 text-4xl text-green-600 text-left font-bold lg:pt-40 lg:pb-12">Services</h1>
+            <div class = "w-full flex pt-5 pb-10 lg:pb-40 gap-5 flex-col lg:flex-row lg:gap-6 ">
+                <!-- 1st card -->
+                <div class = " justify-center rounded-2xl flex p-5 gap-5 bg-orange-50  flex-col items-center">
+                    <img class = "bg-white rounded-full p-5" src="assets/service.png" alt="">
+                    <h5 class = "text-2xl font-bold">24/7 Services</h5>
+                    <p class = "text-center text-slate-400 text-xl">Reliable 24/7 services ensure uninterrupted support anytime, anywhere.</p>
+                </div>
+                <!-- 2nd Card -->
+                <div class = " justify-center rounded-2xl flex p-5 gap-5 bg-orange-50  flex-col items-center">
+                    <img class = "bg-white rounded-full p-5" src="assets/delivery.png" alt="">
+                    <h5 class = "text-2xl font-bold">Fast Delivery</h5>
+                    <p class = "text-center text-slate-400 text-xl">Fast delivery ensures your order reaches you swiftly and on time.</p>
+                </div>
+                <!-- 3rd Card -->
+                <div class = " justify-center rounded-2xl flex p-5 gap-5 bg-orange-50  flex-col items-center">
+                    <img class = "bg-white rounded-full p-5" src="assets/healthy.png" alt="">
+                    <h5 class = "text-2xl font-bold">Healthy Products </h5>
+                    <p class = "text-center text-slate-400 text-xl">Healthy products crafted for your well-being and a better lifestyle.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Popular Products -->
+         <section class = "bg-orange-50">
+            <div class = " p-3 flex flex-col lg:gap-12 lg:px-40 lg:py-28 ">
+                <h1 class = " py-8 text-4xl font-bold text-green-600 text-left">Popular Products</h1>
+                <div class = "   flex flex-col lg:flex-row gap-6 justify-center items-center"> 
+                    <!-- Left large card -->
+                    <div  class = "  w-full pr-2 rounded-lg gap-4 h-f lg:w-1/3 flex flex-col pt-8 pl-8 bg-gradient-to-br from-green-400 relative">
+                        <h1 class = " text-white text-2xl font-bold text-left">30% off</h1>
+                        <p class = " pb-2 text-sm text-left text-slate-500">Discover a world of treats, toys and<br>essential handpicked goods for</p>
+                        <button class = " gap-0 w-1/3 p-2 bg-white rounded-xl text-center text-xl ">Buy Now</button>
+                        <img class = " w-1/2 relative ml-auto right-0 bottom-0"src="assets/vegetable-offer.png" alt="">
+                    </div>
+                    <div class = " w-full lg:w-2/3">
+                        <div class="grid grid-cols-2 col-span-2 lg:grid-cols-3 lg:col-span-3 gap-2">
+                            <!-- Right Card 1 -->
+                            <div class = " items-center p-2 lg:p-4 bg-white rounded-md flex flex-row gap-2">
+                                <div>
+                                    <img class = "  p-2 bg-orange-50 rounded-md"src="assets/onion.png" alt="">
+                                </div>
+                                <div>
+                                    <div class = "flex flex-row gap-2 items-center">
+                                        <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                                        <p class = " text-sm lg:text-lg">4.5</p>
+                                    </div>
+                                    <h2 class = " font-bold lg:font-semibold text-xs lg:text-xl ">Onion 1 KG</h2>
+                                    <h5 class = " text-xs lg:text-lg">$39.99</h5>
+                                </div>
+                            </div>
+
+                            <!-- Right Card 2 -->
+                            <div class = " items-center p-2 lg:p-4 bg-white rounded-md flex flex-row gap-2">
+                                <div>
+                                    <img class = "p-2 bg-orange-50 rounded-md" src="assets/tomato.png" alt="">
+                                </div>
+                                <div>
+                                    <div class = "flex flex-row gap-2 items-center">
+                                        <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                                        <p class = "text-sm lg:text-lg">4.5</p>
+                                    </div>
+                                    <h2 class = " font-bold lg:font-semibold text-xs lg:text-xl">Tomato 500 g</h2>
+                                    <h5 class = "text-xs lg:text-lg">$39.99</h5>
+                                </div>
+                            </div>
+
+                            <!-- Right Card 3 -->
+                            <div class = " items-center p-2 lg:p-4 bg-white rounded-md flex flex-row gap-2">
+                                <div>
+                                    <img class = "p-2 bg-orange-50 rounded-md" src="assets/potato.png" alt="">
+                                </div>
+                                <div>
+                                    <div class = "flex flex-row gap-2 items-center">
+                                        <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                                        <p class = "text-sm lg:text-lg">4.5</p>
+                                    </div>
+                                    <h2 class = "font-bold lg:font-semibold text-xs lg:text-xl">Potato 1 KG</h2>
+                                    <h5 class = "text-xs lg:text-lg">$39.99</h5>
+                                </div>
+                            </div>
+
+                            <!-- Right Card 4 -->
+                            <div class = " items-center p-2 lg:p-4 bg-white rounded-md flex flex-row gap-2">
+                                <div>
+                                    <img class = "p-2 bg-orange-50 rounded-md" src="assets/tomato.png" alt="">
+                                </div>
+                                <div>
+                                    <div class = "flex flex-row gap-2 items-center">
+                                        <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                                        <p class = "text-sm lg:text-lg">4.5</p>
+                                    </div>
+                                    <h2 class = " font-bold lg:font-semibold text-xs lg:text-xl">Tomato 500 g</h2>
+                                    <h5 class = "text-xs lg:text-lg">$39.99</h5>
+                                </div>
+                            </div>
+
+                            <!-- Right Card 5 -->
+                            <div class = " items-center p-2 lg:p-4 bg-white rounded-md flex flex-row gap-2">
+                                <div class = "w-1/2">
+                                    <img class = "  p-2 bg-orange-50 rounded-md"src="assets/onion.png" alt="">
+                                </div>
+                                <div>
+                                    <div class = "flex flex-row gap-2 items-center">
+                                        <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                                        <p class = " text-sm lg:text-lg">4.5</p>
+                                    </div>
+                                    <h2 class = " font-bold lg:font-semibold text-xs lg:text-xl ">Onion 1 KG</h2>
+                                    <h5 class = " text-xs lg:text-lg">$39.99</h5>
+                                </div>
+                            </div>
+
+                            <!-- Right Card 6 -->
+                            <div class = " items-center p-2 lg:p-4 bg-white rounded-md flex flex-row gap-2">
+                                <div>
+                                    <img class = "p-2 bg-orange-50 rounded-md" src="assets/tomato.png" alt="">
+                                </div>
+                                <div>
+                                    <div class = "flex flex-row gap-2 items-center">
+                                        <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                                        <p class = "text-sm lg:text-lg">4.5</p>
+                                    </div>
+                                    <h2 class = " font-bold lg:font-semibold text-xs lg:text-xl">Tomato 500 g</h2>
+                                    <h5 class = "text-xs lg:text-lg">$39.99</h5>
+                                </div>
+                            </div>
+
+                            <!-- Right Card 7 -->
+                            <div class = " items-center p-2 lg:p-4 bg-white rounded-md flex flex-row gap-2">
+                                <div class = "w-1/2">
+                                    <img class = "  p-2 bg-orange-50 rounded-md"src="assets/onion.png" alt="">
+                                </div>
+                                <div>
+                                    <div class = "flex flex-row gap-2 items-center">
+                                        <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                                        <p class = " text-sm lg:text-lg">4.5</p>
+                                    </div>
+                                    <h2 class = " font-bold lg:font-semibold text-xs lg:text-xl ">Onion 1 KG</h2>
+                                    <h5 class = " text-xs lg:text-lg">$39.99</h5>
+                                </div>
+                            </div>
+
+                            <!-- Right Card 8 -->
+                            <div class = " items-center p-2 lg:p-4 bg-white rounded-md flex flex-row gap-2">
+                                <div>
+                                    <img class = "p-2 bg-orange-50 rounded-md" src="assets/potato.png" alt="">
+                                </div>
+                                <div>
+                                    <div class = "flex flex-row gap-2 items-center">
+                                        <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                                        <p class = "text-sm lg:text-lg">4.5</p>
+                                    </div>
+                                    <h2 class = "font-bold lg:font-semibold text-xs lg:text-xl">Potato 1 KG</h2>
+                                    <h5 class = "text-xs lg:text-lg">$39.99</h5>
+                                </div>
+                            </div>
+
+                            <!-- Right Card 9 -->
+                            <div class = " hidden lg:flex items-center p-2 lg:p-4 bg-white rounded-md  flex-row gap-2">
+                                <div>
+                                    <img class = "p-2 bg-orange-50 rounded-md" src="assets/potato.png" alt="">
+                                </div>
+                                <div>
+                                    <div class = "flex flex-row gap-2 items-center">
+                                        <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                                        <p class = "text-sm lg:text-lg">4.5</p>
+                                    </div>
+                                    <h2 class = "font-bold lg:font-semibold text-xs lg:text-xl">Potato 1 KG</h2>
+                                    <h5 class = "text-xs lg:text-lg">$39.99</h5>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                
+
+                
+                    
+                </div>
+            </div>
+         </section>
+    </main>
+    
+    
+</body>
+</html>
